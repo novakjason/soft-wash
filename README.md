@@ -1,2 +1,2 @@
 # soft-wash
-A full stack web application using React, Next, Express, Mongoose, and MongoDB
+A full stack web application using [React](https://reactjs.org "React – A JavaScript library for building user interfaces"), [Next](https://nextjs.org "The React Framework"), [Node](https://nodejs.org/ "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."), [Express](https;//expressjs.com "Fast, unopinionated, minimalist web framework for Node.js"), [Mongoose](https://mongoosejs.com/ "Elegant MongoDB object modeling for Node.js."), and [MongoDB](https://www.mongodb.com "The most popular database for modern apps.")

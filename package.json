@@ -1,0 +1,28 @@
+{
+  "name": "soft-wash",
+  "version": "1.0.0",
+  "description": "A full stack web application using React, Next, Express, Mongoose, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novakjason/soft-wash.git"
+  },
+  "author": "D. Cohen, Jason Novak, Cierra Sallas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novakjason/soft-wash/issues"
+  },
+  "homepage": "https://soft-wash.novakjason.now.sh/",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "mongoose": "^5.7.3",
+    "next": "^9.0.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
