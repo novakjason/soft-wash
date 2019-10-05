@@ -19,6 +19,7 @@
   },
   "homepage": "https://soft-wash.novakjason.now.sh/",
   "dependencies": {
+    "@material-ui/core": "^4.5.0",
     "isomorphic-unfetch": "^3.0.0",
     "mongoose": "^5.7.3",
     "next": "^9.0.7",
