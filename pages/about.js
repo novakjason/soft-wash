@@ -1,5 +1,5 @@
 import Layout from '../components/MyLayout.js';
-import CardPic from '../components/Card';
+import CardPic from '../components/CardPic';
 import { makeStyles } from '@material-ui/core/styles';
 import HouseOutlinedIcon from '@material-ui/icons/HouseOutlined';
 
