@@ -1,4 +1,4 @@
-// import './Navbar.css'
+
 import Link from 'next/Link'
 
 
@@ -12,6 +12,9 @@ export default function Navbar(props){
                 </Link></li>
                 <li><Link href="/about">
                     <a>About</a>
+                </Link></li>
+                <li><Link href="/login">
+                    <a>Log In</a>
                 </Link></li>
             </ul>
             <style jsx>
@@ -32,8 +35,6 @@ export default function Navbar(props){
                     border-right: 1px solid blue;
                     padding: 15px 0;
                     
-                    
-
                 }
                 nav{
                     height: 3rem;
@@ -43,7 +44,7 @@ export default function Navbar(props){
                     
                 }
                 li:hover{
-                   transform: scale(1.05);
+                   
                    transition: .5s all;
                    border-bottom: 1px solid cyan;
                 }

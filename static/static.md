@@ -1,0 +1,1 @@
+## this folder is for images, as per https://nextjs.org/docs#static-file-serving-eg-images
