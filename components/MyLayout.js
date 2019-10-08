@@ -1,5 +1,6 @@
 import Header from './Header';
 import Navbar from './Navbar';
+import Head from 'next/head';
 import { Container } from '@material-ui/core';
 
 
@@ -12,7 +13,9 @@ const layoutStyle = {
 function Layout(props) {
   return (
       <div>
-      
+        <Head>
+          <title>Virginia Soft Wash</title>
+        </Head>
       <Navbar />
       <Container maxWidth="lg">
         <div style={layoutStyle}>
