@@ -8,7 +8,7 @@ import { Container } from '@material-ui/core';
 const layoutStyle = {
   margin: 20,
   padding: 20,
-  border: '1px solid #DDD'
+  
 }
 
 function Layout(props) {
@@ -17,6 +17,7 @@ function Layout(props) {
         <Head>
           <title>Virginia Soft Wash</title>
           <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+          
         </Head>
         <Typography variant="body2">
 
@@ -24,7 +25,7 @@ function Layout(props) {
       <Navbar />
       <Container maxWidth="lg">
         <div style={layoutStyle}>
-          <Header />
+          
             {props.children}
         </div>
       </Container>
