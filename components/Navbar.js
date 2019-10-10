@@ -37,7 +37,7 @@ export default function Navbar(props) {
                             box-shadow: 0 4px 4px -1px rgba(0,0,0,.1); 
                         }
                         li:hover{
-                            transition: .5s all;
+                            transition: .5s border;
                             border-bottom: 1px solid grey;
                         }
                          a{
