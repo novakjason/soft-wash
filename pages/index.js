@@ -1,12 +1,12 @@
-import Layout from '../components/MyLayout';
+
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
 const Index = props => (
   
      
-  <Layout>
   
+  <div>
     <h1>Batman TV Shows</h1>
     <ul>
       {props.shows.map(show => (
@@ -17,7 +17,8 @@ const Index = props => (
         </li>
       ))}
     </ul>
-  </Layout>
+  </div>
+  
   
 );
 

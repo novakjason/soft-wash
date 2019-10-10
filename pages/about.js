@@ -1,4 +1,3 @@
-import Layout from '../components/MyLayout.js';
 import CardPic from '../components/CardPic';
 import { makeStyles } from '@material-ui/core/styles';
 import HouseOutlinedIcon from '@material-ui/icons/HouseOutlined';
@@ -15,7 +14,7 @@ export default function About() {
   const classes = useStyles();
   return (
    
-    <Layout>
+    <div>
    
       <p>This is the about page</p>
       <div className={classes.cardbox}>
@@ -30,6 +29,6 @@ export default function About() {
         />
       </div>
      
-    </Layout>
+   </div>
   )
 }
