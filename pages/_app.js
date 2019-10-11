@@ -1,6 +1,5 @@
 // because of how nextjs works, we don't need to have a custom HOC to wrap
 // stuff with. Consider this the new "My Layout"
-
 import React from 'react';
 import App from 'next/app';
 import Navbar from '../components/Navbar';
